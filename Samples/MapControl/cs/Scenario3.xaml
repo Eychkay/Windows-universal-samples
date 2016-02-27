@@ -71,7 +71,8 @@
                                                 <TextBlock Text="{Binding DisplayName}"/>
                                             </Border>
                                             <Image Source="{Binding ImageSourceUri}"
-                                               maps:MapControl.Location="{Binding Location}" 
+                                               maps:MapControl.Location="{Binding Location}"
+                                               Maps:MapControl.NormalizedAnchorPoint="{Binding AnchorPoint}"
                                                >
                                                 <Image.Transitions>
                                                     <TransitionCollection>
