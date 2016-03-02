@@ -20,5 +20,13 @@ namespace MapControlSample.Model
         public Uri ImageSourceUri { get; set; }
         public string MoreInfo { get; set; }
         public Point NormalizedAnchorPoint { get; set; }
+        
+        private  Point p = new Point(0.32, 0.78);
+
+        public  Point AnchorPoint
+        {
+            get { return p ; }
+            set { p = value; }
+        }
     }
 }
